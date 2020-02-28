@@ -35,7 +35,7 @@ dependencies:
   built_value: ^6.6.0
   built_collection: ^4.2.2
 
-  image_picker: ^0.6.0+15
+  image_picker: 0.6.3+4
   transparent_image: ^1.0.0
 
   # We fixed a bug in the plugin
@@ -49,8 +49,11 @@ dependencies:
       url: https://github.com/btastic/flutter_native_image.git
       ref: fix/ios_compression
 
-  pinch_zoom_image: ^0.2.5
-  flutter_platform_widgets: ^0.20.2
+  pinch_zoom_image:
+    git:
+      url: https://github.com/TheFe91/pinch_zoom_image.git
+
+  flutter_platform_widgets: ^0.31.0
 
   flutter_linkify: ^2.1.0
   url_launcher: ^5.0.3
